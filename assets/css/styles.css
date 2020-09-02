@@ -1,0 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.contact-section {
+  height: 70vh;
+}
+
+.welcome-section {
+  height: 100vh;
+}
+
+.project-tile {
+  padding: 1rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.contact-btn {
+  font-size: 1em;
+  margin: 1rem;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+@media (max-width: 600) {
+  html {
+    font-size: 60%;
+  }
+}
+

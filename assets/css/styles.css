@@ -2,20 +2,21 @@ html {
   scroll-behavior: smooth;
 }
 
-.contact-section {
-  height: 70vh;
-}
 
-.welcome-section {
+.welcome {
   height: 100vh;
 }
 
-.project-tile {
+/* .project-tile {
   padding: 1rem;
   font-family: 'Roboto Mono', monospace;
+} */
+
+.contact__section {
+  height: 70vh;
 }
 
-.contact-btn {
+.contact__btn {
   font-size: 1em;
   margin: 1rem;
 }
@@ -24,11 +25,11 @@ body {
   font-family: 'Roboto Mono', monospace;
 }
 
-@media (max-width: 600) {
+/* @media (max-width: 600) {
   html {
-    font-size: 60%;
+    font-size: 30%;
   }
-}
+} */
 
 .avatar {
   width: 15%;

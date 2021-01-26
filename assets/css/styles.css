@@ -21,6 +21,17 @@ html {
   margin: 1rem;
 }
 
+@media screen and (max-width: 650px) {
+  .welcome {
+    height: auto;
+  }
+
+  .contact__section {
+    padding-top: 4rem;
+    height: auto;
+  }
+}
+
 body {
   font-family: 'Nunito', sans-serif;
 }
@@ -42,11 +53,6 @@ body {
 }
 
 .codingStuff {
-  
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 24px;
-  border-top-right-radius: 5px;
   box-shadow: 4px 4px rgba(0,0,0,0.19);
   margin-bottom: 1rem;
 }
@@ -57,8 +63,15 @@ body {
 }
 
 .about {
-  margin: 0 4rem 1rem 4rem;
-  border-top-right-radius: 5px;
+  margin: 0 20% 1rem 20%;
+  
+}
+
+@media screen and (max-width: 980px) {
+  .about {
+    margin: 0 4rem 1rem 4rem;
+    
+  }
 }
 
 .h2-title {
